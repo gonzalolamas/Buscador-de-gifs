@@ -7,3 +7,9 @@ body{
   height: auto;
   color: #456475;
 }
+
+input {
+  color: #456475;
+  font-size: 1.3rem;
+  width: 100%;
+}
