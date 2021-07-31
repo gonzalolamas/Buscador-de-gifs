@@ -15,7 +15,7 @@ export const AddCategory = ({setCategories}) => {
         if ( inputValue.trim().length > 2 ) {
             //console.log('sbmit por defecto')
             // setCategories
-            setCategories( cats => [...cats, inputValue])
+            setCategories( cats => [ inputValue, ...cats])
             setInputValue('');
         }
     }
