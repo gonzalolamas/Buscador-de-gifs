@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Buscador-de-gifs/static/css/main.7fa792b5.chunk.css",
+    "main.js": "/Buscador-de-gifs/static/js/main.581e78ef.chunk.js",
+    "main.js.map": "/Buscador-de-gifs/static/js/main.581e78ef.chunk.js.map",
+    "runtime-main.js": "/Buscador-de-gifs/static/js/runtime-main.6b604fba.js",
+    "runtime-main.js.map": "/Buscador-de-gifs/static/js/runtime-main.6b604fba.js.map",
+    "static/js/2.0319213c.chunk.js": "/Buscador-de-gifs/static/js/2.0319213c.chunk.js",
+    "static/js/2.0319213c.chunk.js.map": "/Buscador-de-gifs/static/js/2.0319213c.chunk.js.map",
+    "index.html": "/Buscador-de-gifs/index.html",
+    "static/css/main.7fa792b5.chunk.css.map": "/Buscador-de-gifs/static/css/main.7fa792b5.chunk.css.map",
+    "static/js/2.0319213c.chunk.js.LICENSE.txt": "/Buscador-de-gifs/static/js/2.0319213c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b604fba.js",
+    "static/js/2.0319213c.chunk.js",
+    "static/css/main.7fa792b5.chunk.css",
+    "static/js/main.581e78ef.chunk.js"
+  ]
+}
