@@ -1,4 +1,4 @@
-# Gif App
+# Gif App 🔍📟
 
 <p>App hecha en React con Hooks para buscar gifs animados en la API de Giphy, y por cada búsqueda se crea un historial de lo que vamos buscando.</p>
 
