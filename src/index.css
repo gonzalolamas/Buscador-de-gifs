@@ -1,12 +1,13 @@
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  background-color: black
 }
 
 body {
   padding: 100px;
   height: auto;
-  color: #456475;
+  color: #738894;
 }
 
 input {
