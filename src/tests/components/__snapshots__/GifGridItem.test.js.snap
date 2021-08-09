@@ -4,7 +4,12 @@ exports[`Pruebas en GifGridItem debe de mostrar el componente correctamente 1`] 
 <div
   className="card animate__animated animate__bounce animate__faster"
 >
-  <img />
-  <p />
+  <img
+    alt="Hola, soy el título del componente"
+    src="https://imagenredireccion.svg"
+  />
+  <p>
+    Hola, soy el título del componente
+  </p>
 </div>
 `;

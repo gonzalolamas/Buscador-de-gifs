@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types'
 
 export const GifGridItem = ({ title, url }) => {
   //console.log(id, title, url)
@@ -10,15 +11,9 @@ export const GifGridItem = ({ title, url }) => {
   );
 };
 
-/* 
-Configurar
+GifGridItem.propTypes = {
+  url: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+}
 
-1. Enzyme
-2. Enzyme to Json
-3. debe de mostrar el componente correctamente
-  * shallow
-  * wrapper
-  * wrapper .toMatchSnapshot()
 
-Esto lo hacemos en setupTests, counterApp hicimos estas configuraciones
-*/
