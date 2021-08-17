@@ -1,15 +1,21 @@
-import {shallow} from 'enzyme'
-import { AddCategory } from '../../components/AddCategory'
+import { shallow } from "enzyme";
+import { AddCategory } from "../../components/AddCategory";
 
+describe("Pruebas en AddCategory", () => {
+  const setCategories = () => {};
+  const wrapper = shallow(<AddCategory setCategories={setCategories} />);
 
-describe('Pruebas en AddCategory', () => {
+  test("debe de mostrarse correctamente", () => {
+    expect(wrapper).toMatchSnapshot();
+  });
 
-    const setCategories = () => {};
+  test("debe de cambiar la caja de texto", () => {
+    const input = wrapper.find("input");
+    const value = "Hola mundo";
+    input.simulate("change", {
+      target: { value },
+    });
 
-    test('debe de mostrarse correctamente', () => {
-        const wrapper = shallow(<AddCategory setCategories={setCategories} />)
-
-        expect(wrapper).toMatchSnapshot()
-    })
-    
-})
+    expect(wrapper.find('span').text().trim()).toBe(value)
+  });
+});
